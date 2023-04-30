@@ -1,6 +1,8 @@
 # E-COMMERCE API
 
-This API contains a set of endpoints that allow developers to interact with and consume data related to e-commerce. It provides access to product information, orders, users, and shopping carts.
+This API is an open source (test scenario) software made to create a easy and simple "Shop" API, where you have a set of endpoints (User, Products, Carts and Orders)  that stores and handles everything related to products, cartscreate orders (cart's) and checkout items.
+
+The purpose of this repository it's for education and test. But the code it's being coded in a proper way.
 
 ## ENDPOINTS  
 

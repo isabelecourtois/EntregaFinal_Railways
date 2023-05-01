@@ -5,8 +5,8 @@ const ser = new ordenSer();
 
 export default class ordenCnt {
     async postOrden(req, res) {
-        const { id_usr } = req.params;
-        const order = await ser.postOrden(id_usr)
+        const { userId } = req.params;
+        const order = await ser.postOrden(userId)
         res.json(order);
     }
 }

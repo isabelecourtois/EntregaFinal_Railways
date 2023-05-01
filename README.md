@@ -159,7 +159,7 @@ The purpose of this repository it's for education and test. But the code it's be
 
 -----------------------
 
-**POST** /api/pedido/: id_usr
+**POST** /api/pedido/: userId
 
 *	Endpoint: `/pedido/`
 *	Method: `POST`

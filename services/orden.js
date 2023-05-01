@@ -11,8 +11,8 @@ const usuarioRepo = new usuarioRep();
 const carroRepo = new carroRep();
 
 export default class ordenSer {
-  async postOrden(id_usr) {
-    const user = await usuarioRepo.getById(id_usr);
+  async postOrden(userId) {
+    const user = await usuarioRepo.getById(userId);
     if (!user) return null;
     const cart = await carroRepo.getById(user.carritoId);
 

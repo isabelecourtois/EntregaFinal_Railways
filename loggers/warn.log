@@ -17,3 +17,4 @@
 {"level":"warn","message":"Ruta GET /api/productos no esta implementada"}
 {"level":"warn","message":"Ruta GET /api/productos no esta implementada"}
 {"level":"error"}
+{"code":"ERR_INVALID_ARG_TYPE","level":"error"}

@@ -72,7 +72,7 @@ export class usuarioSer {
         const token = jwt.sign({ id: user.id }, process.env.JWT_SECRET, {
           expiresIn: process.env.JWT_TOKEN_DURATION,
         });
-        return { token: token, id_usr: user.id };
+        return { token: token, userId: user.id };
       } else {
         return { status: "Password incorrecto" };
       }

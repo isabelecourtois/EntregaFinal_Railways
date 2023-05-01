@@ -8,6 +8,6 @@ const orderRouter = Router();
 const ordenCtrl = new ordenCnt();
 
 
-orderRouter.post("/:id_usr", ordenCtrl.postOrden)
+orderRouter.post("/:userId", ordenCtrl.postOrden)
  
 export default orderRouter;
